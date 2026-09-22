@@ -6,8 +6,8 @@ Una aplicación de consola desarrollada en **C# y .NET** orientada a la gestión
 
 ## Características Principales
 
-El sistema ofrece un menú interactivo [2] con las siguientes capacidades:
-* **Registro Técnico de Clientes:** Validación en tiempo real para evitar duplicidad de IDs [2] y protección contra valores financieros negativos al instanciar objetos.
+El sistema ofrece un menú interactivo con las siguientes capacidades:
+* **Registro Técnico de Clientes:** Validación en tiempo real para evitar duplicidad de IDs y protección contra valores financieros negativos al instanciar objetos.
 * **Control de Crédito Avanzado:** Métodos seguros para el incremento y decremento de saldos, controlando que los montos sean válidos y que no existan sobregiros superiores al crédito disponible.
 * **Gestión de Estados Inteligente:** Capacidad de activar o desactivar clientes. Las operaciones financieras y de edición se bloquean automáticamente si un cliente se encuentra en estado *Inactivo*.
 * **Validación de Correo Electrónico:** Integración de la librería nativa `System.Net.Mail` para asegurar el formato real de los correos electrónicos mediante capturas de excepciones (`MailAddress`).
